@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 50px;
+  transition: background-color 0.3s ease;
+}
+
+.container {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+}
+
+input[type="color"] {
+  width: 100px;
+  height: 50px;
+  border: none;
+  margin: 20px 0;
+  cursor: pointer;
+}
+
+p {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+#hexCode,
+#rgbCode {
+  font-weight: bold;
+}
+
+#copyBtn {
+  margin-top: 15px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  background-color: #4caf50;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+#copyBtn:hover {
+  background-color: #45a049;
+}
